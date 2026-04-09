@@ -22,7 +22,7 @@ export default function Home() {
 
       {/* Hero / Dashboard Section */}
       <section className="bg-gradient-to-br from-[#2C1810] via-[#3D2317] to-[#1a0e08] text-white">
-        <div className="max-w-7xl mx-auto px-8 py-12 md:py-16">
+        <div className="max-w-7xl mx-auto md:py-16" style={{ padding: '48px 40px' }}>
           <div className="flex flex-col md:flex-row items-center gap-8">
             {/* Left Content */}
             <div className="flex-1 text-center md:text-left">
@@ -33,15 +33,14 @@ export default function Home() {
                 Nikmati Kopi
                 <span className="block text-[#D4A373]">Terbaik Kami</span>
               </h2>
-              <p className="text-gray-400 text-sm md:text-base max-w-md mb-6 leading-relaxed mx-auto md:mx-0">
-                Semua menu dari <span className="text-[#D4A373] font-bold">Kopi Kenangan</span> dengan harga promo spesial! 
-                Website ini menyediakan fitur potongan harga — pesan lewat kami, ambil langsung di outlet terdekat.
+              <p className="text-gray-400 text-sm md:text-base mb-6 leading-relaxed mx-auto md:mx-0" style={{ maxWidth: '300px' }}>
+                Semua menu dari <span className="text-[#D4A373] font-bold">Kopi Kenangan</span> dengan harga promo spesial! Website ini menyediakan fitur potongan harga — pesan lewat kami, ambil langsung di outlet terdekat.
               </p>
 
               {/* Contact Person Section */}
               <div className="flex flex-col gap-3">
                 <p className="text-xs text-gray-500 uppercase tracking-widest font-semibold">Pesan langsung via:</p>
-                <div className="flex items-center gap-3 justify-center md:justify-start">
+                <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 justify-center md:justify-start">
                   {/* Telegram */}
                   <a 
                     href="https://t.me/ampnih" 
