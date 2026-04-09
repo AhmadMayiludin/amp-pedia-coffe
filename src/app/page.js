@@ -33,12 +33,9 @@ export default function Home() {
                 Nikmati Kopi
                 <span className="block text-[#D4A373]">Terbaik Kami</span>
               </h2>
-              <p className="text-gray-400 text-sm md:text-base max-w-md mb-2 leading-relaxed">
+              <p className="text-gray-400 text-sm md:text-base max-w-md mb-6 leading-relaxed">
                 Semua menu dari <span className="text-[#D4A373] font-bold">Kopi Kenangan</span> dengan harga promo spesial! 
-                Website ini hanya menyediakan fitur potongan harga — pesan lewat kami, ambil langsung di outlet terdekat.
-              </p>
-              <p className="text-[10px] text-gray-500 mb-6 max-w-md leading-relaxed italic">
-                *Bukan bagian dari Kopi Kenangan. Kami adalah layanan pemesanan independen yang memberikan harga promo untuk pelanggan.
+                Website ini menyediakan fitur potongan harga — pesan lewat kami, ambil langsung di outlet terdekat.
               </p>
 
               {/* Contact Person Section */}
