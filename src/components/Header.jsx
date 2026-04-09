@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header className="bg-[#2C1810] text-white">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           {/* Coffee cup icon */}
           <div className="w-10 h-10 bg-[#A67C52] rounded-full flex items-center justify-center">

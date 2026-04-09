@@ -3,7 +3,7 @@ import React from 'react';
 const CategoryTabs = ({ categories, activeCategory, setActiveCategory }) => {
   return (
     <div className="sticky top-0 z-40 bg-white border-b border-gray-100 overflow-x-auto no-scrollbar">
-      <div className="flex px-4 min-w-max max-w-7xl mx-auto">
+      <div className="flex px-6 min-w-max max-w-7xl mx-auto">
         {categories.map((category) => (
           <button
             key={category}

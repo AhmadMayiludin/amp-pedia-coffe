@@ -22,7 +22,7 @@ export default function Home() {
 
       {/* Hero / Dashboard Section */}
       <section className="bg-gradient-to-br from-[#2C1810] via-[#3D2317] to-[#1a0e08] text-white">
-        <div className="max-w-7xl mx-auto px-6 py-12 md:py-16">
+        <div className="max-w-7xl mx-auto px-8 py-12 md:py-16">
           <div className="flex flex-col md:flex-row items-center gap-8">
             {/* Left Content */}
             <div className="flex-1 text-center md:text-left">
@@ -33,7 +33,7 @@ export default function Home() {
                 Nikmati Kopi
                 <span className="block text-[#D4A373]">Terbaik Kami</span>
               </h2>
-              <p className="text-gray-400 text-sm md:text-base max-w-md mb-6 leading-relaxed">
+              <p className="text-gray-400 text-sm md:text-base max-w-md mb-6 leading-relaxed mx-auto md:mx-0">
                 Semua menu dari <span className="text-[#D4A373] font-bold">Kopi Kenangan</span> dengan harga promo spesial! 
                 Website ini menyediakan fitur potongan harga — pesan lewat kami, ambil langsung di outlet terdekat.
               </p>
@@ -105,7 +105,7 @@ export default function Home() {
       />
 
       {/* Menu Section Title */}
-      <section className="px-6 pt-6 pb-2 max-w-7xl mx-auto">
+      <section className="px-8 pt-6 pb-2 max-w-7xl mx-auto">
         <h2 className="text-xl font-bold text-gray-900">{activeCategory}</h2>
         <p className="text-gray-400 text-xs mt-0.5">Pilih menu favoritmu</p>
       </section>
@@ -122,7 +122,7 @@ export default function Home() {
 
       {/* Footer / Contact Person Section */}
       <footer className="bg-[#2C1810] text-white">
-        <div className="max-w-7xl mx-auto px-6 py-10">
+        <div className="max-w-7xl mx-auto px-8 py-10">
           <div className="text-center mb-8">
             <h3 className="text-lg font-extrabold mb-1">Mau Pesan?</h3>
             <p className="text-gray-400 text-sm">Hubungi kami langsung melalui platform berikut</p>
