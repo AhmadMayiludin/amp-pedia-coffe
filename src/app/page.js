@@ -16,13 +16,13 @@ export default function Home() {
   }, [activeCategory]);
 
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-white overflow-x-hidden">
       {/* Header with Brand */}
       <Header />
 
       {/* Hero / Dashboard Section */}
       <section className="bg-gradient-to-br from-[#2C1810] via-[#3D2317] to-[#1a0e08] text-white">
-        <div className="max-w-7xl mx-auto px-4 py-10 md:py-16">
+        <div className="max-w-7xl mx-auto px-6 py-12 md:py-16">
           <div className="flex flex-col md:flex-row items-center gap-8">
             {/* Left Content */}
             <div className="flex-1 text-center md:text-left">
