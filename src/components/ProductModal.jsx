@@ -1,8 +1,16 @@
 "use client";
 
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const ProductModal = ({ product, onClose }) => {
+  // Lock background scroll when modal is open
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, []);
+
   if (!product) return null;
 
   const formatPrice = (price) => {
