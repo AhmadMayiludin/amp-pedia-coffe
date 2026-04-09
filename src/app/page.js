@@ -105,7 +105,7 @@ export default function Home() {
       />
 
       {/* Menu Section Title */}
-      <section className="px-4 pt-6 pb-2 max-w-7xl mx-auto">
+      <section className="px-6 pt-6 pb-2 max-w-7xl mx-auto">
         <h2 className="text-xl font-bold text-gray-900">{activeCategory}</h2>
         <p className="text-gray-400 text-xs mt-0.5">Pilih menu favoritmu</p>
       </section>
@@ -122,7 +122,7 @@ export default function Home() {
 
       {/* Footer / Contact Person Section */}
       <footer className="bg-[#2C1810] text-white">
-        <div className="max-w-7xl mx-auto px-4 py-10">
+        <div className="max-w-7xl mx-auto px-6 py-10">
           <div className="text-center mb-8">
             <h3 className="text-lg font-extrabold mb-1">Mau Pesan?</h3>
             <p className="text-gray-400 text-sm">Hubungi kami langsung melalui platform berikut</p>
