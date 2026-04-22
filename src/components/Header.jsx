@@ -4,17 +4,28 @@ const Header = () => {
   return (
     <header className="bg-[#2C1810] text-white">
       <div className="max-w-7xl mx-auto flex items-center justify-between" style={{ padding: '16px 40px' }}>
-        <div className="flex items-center gap-3">
-          {/* Coffee cup icon */}
-          <div className="w-10 h-10 bg-[#A67C52] rounded-full flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M2 21h18v-2H2v2zM20 8h-2V5H4v3H2v5a4 4 0 004 4h8a4 4 0 004-4v-1h2a2 2 0 002-2v-1a2 2 0 00-2-2zm-2 5a2 2 0 01-2 2H6a2 2 0 01-2-2V7h14v6zm4-4v1h-2V8h2v1z"/>
-            </svg>
+        <div className="flex items-center gap-6">
+          <div className="flex items-center gap-3">
+            {/* Coffee cup icon */}
+            <div className="w-10 h-10 bg-[#A67C52] rounded-full flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M2 21h18v-2H2v2zM20 8h-2V5H4v3H2v5a4 4 0 004 4h8a4 4 0 004-4v-1h2a2 2 0 002-2v-1a2 2 0 00-2-2zm-2 5a2 2 0 01-2 2H6a2 2 0 01-2-2V7h14v6zm4-4v1h-2V8h2v1z"/>
+              </svg>
+            </div>
+            <a href="/" className="hover:opacity-80 transition-opacity">
+              <h1 className="text-lg font-extrabold tracking-tight leading-none">amp-pedia</h1>
+              <span className="text-[10px] text-[#D4A373] uppercase tracking-[0.3em] font-semibold">coffee</span>
+            </a>
           </div>
-          <div>
-            <h1 className="text-lg font-extrabold tracking-tight leading-none">amp-pedia</h1>
-            <span className="text-[10px] text-[#D4A373] uppercase tracking-[0.3em] font-semibold">coffee</span>
-          </div>
+
+          <nav className="flex items-center">
+            <a 
+              href="/bundling" 
+              className="flex items-center gap-1.5 bg-[#D4A373]/10 hover:bg-[#D4A373]/20 border border-[#D4A373]/30 text-[#D4A373] px-3 md:px-4 py-1.5 rounded-full text-[10px] md:text-xs font-bold transition-all duration-200 whitespace-nowrap"
+            >
+              🎁 <span className="hidden sm:inline">Paket</span> Bundling
+            </a>
+          </nav>
         </div>
         
         {/* Social icons in header */}

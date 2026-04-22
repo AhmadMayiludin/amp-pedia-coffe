@@ -33,9 +33,18 @@ export default function Home() {
                 Nikmati Kopi
                 <span className="block text-[#D4A373]">Terbaik Kami</span>
               </h2>
-              <p className="text-gray-400 text-sm md:text-base mb-6 leading-relaxed mx-auto md:mx-0" style={{ maxWidth: '300px' }}>
+              <p className="text-gray-400 text-sm md:text-base mb-6 leading-relaxed mx-auto md:mx-0" style={{ maxWidth: '400px' }}>
                 Semua menu dari <span className="text-[#D4A373] font-bold">Kopi Kenangan</span> dengan harga promo spesial! Website ini menyediakan fitur potongan harga — pesan lewat kami, ambil langsung di outlet terdekat.
               </p>
+              
+              <div className="flex flex-wrap items-center gap-3 mb-8 justify-center md:justify-start">
+                <a 
+                  href="/bundling"
+                  className="bg-[#D4A373] hover:bg-[#A67C52] text-[#2C1810] px-6 py-3 rounded-2xl font-extrabold text-sm transition-all duration-200 hover:scale-105 flex items-center gap-2 shadow-lg shadow-[#D4A373]/20"
+                >
+                  🎁 Create Your Bundling
+                </a>
+              </div>
 
               {/* Contact Person Section */}
               <div className="flex flex-col gap-3">
